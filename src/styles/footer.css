@@ -1,0 +1,123 @@
+/* footer.css */
+
+/* Ensure the footer takes the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Footer container */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 200px; /* Ensure the footer takes the full height of the viewport */
+    position: relative; /* Position relative for absolute positioning */
+  }
+  
+  /* Container for flex layout */
+  .container {
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center-align content horizontally */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  }
+  
+  /* Footer content within the container */
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribute content between logo, contact, and social */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  }
+  
+  /* Logo section */
+  .footer-logo {
+    flex: 1; /* Take up available space */
+    max-width: 200px;
+    text-align: left; /* Align to the left */
+    order: -1; /* Move .footer-logo to the beginning of the flex container */
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  /* Header styles within the logo section */
+  .footer-logo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .footer-logo img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+    margin: 0 auto; /* Center-align the image horizontally within its container */
+    border-radius: 10px;
+  }
+  
+  /* Contact section */
+  .footer-contact {
+    flex: 1; /* Take up available space */
+    max-width: 470px;
+    text-align: center; /* Center-align content within the container */
+  }
+  
+  /* Header styles within the contact section */
+  .footer-contact h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Social section */
+  .footer-social {
+    flex: 1; /* Take up available space */
+    max-width: 200px;
+    text-align: left; /* Align to the right */
+    margin-right: 40px;
+  }
+  
+  /* Header styles within the social section */
+  .footer-social h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* List styles within the social section */
+  .footer-social ul {
+    text-align: center;
+    list-style: none;
+    padding: 0 auto;
+    justify-content: center;
+  }
+  
+  /* List item styles within the social section */
+  .footer-social li {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  /* Link styles within the social section */
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Bottom section of the footer */
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0; /* Add padding to create space between footer content and bottom */
+    background-color: #222;
+    position: absolute; /* Position absolutely at the bottom */
+    width: 100%; /* Occupy the full width of the viewport */
+    bottom: 0; /* Position at the bottom */
+  }
+  
+  /* Paragraph styles within the bottom section */
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+  }
+  

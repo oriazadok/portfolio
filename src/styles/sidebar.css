@@ -1,0 +1,47 @@
+/* styles/sidebar.css */
+.sidebar {
+    margin-top: 100px;
+    margin-left: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%; /* Make the sidebar cover the entire height of the viewport */
+    width: 150px; /* Adjust the width as needed */
+    /* background-color: #333; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  /* Style the links in the sidebar */
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    background-color: inherit;
+  }
+  
+  /* Style the logo images */
+  .sidebar img {
+    width: 80px; /* Adjust the width to make the logos smaller */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Add spacing between logos and links */
+    transition: transform 0.3s; 
+  }
+
+  .sidebar img:hover {
+    transform: scale(1.2); /* Increase the size on hover (adjust as needed) */
+  }
+
+  .in {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .github {
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+  }
+  

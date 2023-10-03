@@ -1,0 +1,41 @@
+/* Updated navbar.css */
+nav {
+  margin: 15px;
+  padding: 8px 0;
+  position: fixed;
+  background-color: #688eda;
+  border-radius: 20px;
+  outline: 8px solid #688eda;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s, text-decoration 0.3s; /* Add transition for text-decoration */
+  padding: 10px 20px;
+  position: relative;
+}
+
+a:hover {
+  color: #688eda;
+  background-color: white;
+  border-radius: 20px;
+  transition: color 0.5s, background-color 0.7s; /* Add transitions for color, background color, and border-radius */
+}
