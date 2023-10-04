@@ -105,10 +105,10 @@ html, body {
   
   /* Link styles within the social section */
   .footer-social a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-}
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
   
   /* Bottom section of the footer */
   .footer-bottom {
@@ -124,5 +124,23 @@ html, body {
   .footer-bottom p {
     font-size: 14px;
     margin: 0;
+  }
+  
+  @media (max-width: 710px) {
+
+    
+    .footer-logo {
+      flex: 1; /* Take up available space */
+      max-width: 150px;
+      text-align: left; /* Align to the left */
+      order: -1; /* Move .footer-logo to the beginning of the flex container */
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+
+    ul li {
+      padding: 0px 10px;
+      margin: 5;
+    }
   }
   
