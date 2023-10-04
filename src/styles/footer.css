@@ -96,14 +96,19 @@ html, body {
   .footer-social li {
     margin-bottom: 10px;
     display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  .footer-social li:hover {
+    transform: scale(1.6); /* Increase the size by 20% (adjust as needed) */
   }
   
   /* Link styles within the social section */
   .footer-social a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-  }
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
   
   /* Bottom section of the footer */
   .footer-bottom {

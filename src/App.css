@@ -62,3 +62,22 @@ p {
   border-radius: 10px;
   max-width: 200px; /* Adjust the logo's max width as needed */
 }
+
+
+.scroll-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px; /* Set the initial width of the image */
+  height: 70px; /* Set the initial height of the image */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  z-index: 1;
+}
+
+/* Apply the scale transform when hovering */
+.scroll-to-top-button:hover {
+  transform: scale(1.2); /* Increase the size by 20% (adjust as needed) */
+  /* background-color: #0056b3; */
+}

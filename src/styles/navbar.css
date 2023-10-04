@@ -33,7 +33,7 @@ a {
   position: relative;
 }
 
-a:hover {
+nav ul li a:hover {
   color: #688eda;
   background-color: white;
   border-radius: 20px;
