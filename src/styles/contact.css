@@ -60,13 +60,25 @@
   }
   
 
+  @media (max-width: 1200px) {
+    .contact-content {
+      max-width: 550px;
+    }
+  }
 
 
-
-  @media (max-width: 710px) {
+  @media (max-width: 720px) {
 
     .contact-content {
       max-width: 400px;
+    
+    }
+   
+  }
+  @media (max-width: 570px) {
+
+    .contact-content {
+      max-width: 250px;
     
     }
    

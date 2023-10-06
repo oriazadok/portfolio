@@ -17,6 +17,8 @@ ul {
   padding: 0;
   display: flex;
   justify-content: flex-end;
+  /* border: 1px solid #688eda;
+  border-radius: 10px; */
 }
 
 li {
@@ -40,16 +42,51 @@ nav ul li a:hover {
   transition: color 0.5s, background-color 0.7s; /* Add transitions for color, background color, and border-radius */
 }
 
+@media (max-width: 940px) {
+  nav {
+    margin: 15px;
+    padding: 0px 0;
+    position: fixed;
+    background-color: #688eda;
+    border-radius: 20px;
+    outline: 8px solid #688eda;
+  }
+  
+  nav ul li a {
+    /* border: 1px solid red; */
+    transition: color 0.3s, text-decoration 0.3s; /* Add transition for text-decoration */
+    padding: 5px 10px;
+    position: relative;
+  }
+  
+  
+}
+
 @media (max-width: 710px) {
   nav {
     margin: 15px;
+    padding: 0px 0;
+    position: fixed;
+    background-color: #688eda;
+    border-radius: 20px;
+    outline: 4px solid #688eda;
+  }
+  
+  nav ul li a {
+    /* border: 1px solid red; */
+    transition: color 0.3s, text-decoration 0.3s; /* Add transition for text-decoration */
+    padding: 5px 8px;
+    position: relative;
+    font-size: medium;
+  }
+  /* nav {
+    margin: 15px;
     padding: 0;
-    /* padding: 8px 0; */
   }
 
   nav ul li a {
     font-size: 18px;
-    padding: 0px 10px;
+    padding: 0;
     margin: 0;
-  }
+  } */
 }

@@ -36,6 +36,7 @@ function App() {
         <Navbar />
 
         <h1>Hello there, I'm Oria</h1>
+        <h2>Software Developer</h2>
          <div className="me">
           <p>Computer Science Student, third year Highly motivated.</p>
           <p>passionate about software development, curious, self learning skills.</p>
