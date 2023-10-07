@@ -23,10 +23,10 @@ const Skills = () => {
                     <li><span className="iconify" data-icon="logos:redis" data-inline="false" data-width="90px" data-height="90px"></span><span>Redis</span></li>
                     <li><span className="iconify" data-icon="logos:elasticsearch" data-inline="false" data-width="90px" data-height="90px"></span><span>Elastic Search</span></li>
                     <li><span className="iconify" data-icon="logos:firebase" data-inline="false" data-width="90px" data-height="90px"></span><span>Firebase</span></li>
-                    {/* <li><span className="iconify" data-icon="logos:kubernetes" data-inline="false" data-width="90px" data-height="90px"></span><span>kubernetes</span></li> */}
                     <li><span className="iconify" data-icon="flat-color-icons:linux" data-inline="false" data-width="90px" data-height="90px"></span><span>Linux</span></li>            
-                    {/* <li><span className="iconify" data-icon="devicon:docker-wordmark" data-inline="false" data-width="100px" data-height="100px"></span><span>Docker</span></li> */}
                     <li><span className="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>Git</span></li>
+                    {/* <li><span className="iconify" data-icon="logos:kubernetes" data-inline="false" data-width="90px" data-height="90px"></span><span>kubernetes</span></li> */}
+                    {/* <li><span className="iconify" data-icon="devicon:docker-wordmark" data-inline="false" data-width="100px" data-height="100px"></span><span>Docker</span></li> */}
                     {/* <li><span className="iconify" data-icon="carbon:machine-learning-model" data-inline="false" data-width="90px" data-height="90px"></span><span>Machine Learning</span></li>            */}
                     {/* <li><span className="iconify aws-logo" data-icon="logos:aws" data-inline="false" data-width="90px" data-height="90px"></span><span className="text-center">Amazon Web <br/> Services</span></li>   */}
                 </ul>
