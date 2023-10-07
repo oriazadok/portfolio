@@ -47,8 +47,8 @@ const Projects = () => {
     {
       id: 4,
       imageSrc: process.env.PUBLIC_URL + '/images/android.png',
-      description: 'The Astronomic Dashboard project represents a remarkable initiative that harmoniously combines cutting-edge technologies, including Kafka, ElasticSearch, MongoDB, and web scraping, to unlock the potential of Astronomic Big Data. Through real-time alerts enabled by socket IO and dynamic visualizations using ejs, the dashboard empowers users to efficiently extract celestial insights. By harnessing cloud advancements and state-of-the-art tools, this project provides a gateway to explore and comprehend extensive astronomical datasets, empowering scientists and researchers to make transformative discoveries in the field of astronomy.',
-      repoLink: 'https://github.com/your-username/project1',
+      description: "Android Malware Detection With NLP is an innovative project that harnesses the power of Natural Language Processing (NLP) to identify malicious Android applications. The project's core objective is to shed light on a critical vulnerability in the classifier's accuracy, revealing its susceptibility to manipulation. Through practical examples and rigorous testing, the project showcases an attack strategy that involves adding empty XML tags and benign app features to malicious apps, effectively reducing the classifier's accuracy. Notably, the project employs tools like Apktool for analyzing and modifying Android applications and DroidBot to rigorously test and verify that the attack doesn't compromise the functionality of targeted applications. ",
+      repoLink: 'https://github.com/oriazadok/androidMalwareDetectionWithNLP/tree/master',
     },
     {
       id: 5,
