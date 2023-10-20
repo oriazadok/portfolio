@@ -27,28 +27,28 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      imageSrc: process.env.PUBLIC_URL + '/images/dashboard.png',
+      imageSrc: process.env.PUBLIC_URL + '/images/dashboard.PNG',
       alt: 'Astronomic Dashboard',
       description: 'The Astronomic Dashboard project represents a remarkable initiative that harmoniously combines cutting-edge technologies, including Kafka, ElasticSearch, MongoDB, and web scraping, to unlock the potential of Astronomic Big Data. Through real-time alerts enabled by socket IO and dynamic visualizations using ejs, the dashboard empowers users to efficiently extract celestial insights. By harnessing cloud advancements and state-of-the-art tools, this project provides a gateway to explore and comprehend extensive astronomical datasets, empowering scientists and researchers to make transformative discoveries in the field of astronomy.',
       repoLink: 'https://github.com/oriazadok/big_data',
     },
     {
       id: 2,
-      imageSrc: process.env.PUBLIC_URL + '/images/graph.png',
+      imageSrc: process.env.PUBLIC_URL + '/images/graph.PNG',
       alt: 'GUI for the praphs',
       description: 'This repository contains the implementation of directed and weighted graphs, along with various graph algorithms such as shortest path, TSP etc, designed and implemented as part of an Object-Oriented Programming (OOP) project. This comprehensive project offers a rich set of features and tools for working with graphs, making it a valuable resource for anyone interested in graph theory and algorithms.',
       repoLink: 'https://github.com/oriazadok/directed_weighted_graph',
     },
     {
       id: 3,
-      imageSrc: process.env.PUBLIC_URL + '/images/chat.png',
+      imageSrc: process.env.PUBLIC_URL + '/images/chat.PNG',
       alt: 'UI chat',
       description: 'The Python Chat Application is a user-friendly and versatile chat system designed to facilitate seamless communication between users. Whether you want to engage in group discussions or have private one-on-one conversations, this chat application has got you covered. The project enables users to log in, send messages to everyone in a public chat room, or engage in private conversations with specific users.',
       repoLink: 'https://github.com/oriazadok/chat_python',
     },
     {
       id: 4,
-      imageSrc: process.env.PUBLIC_URL + '/images/android.png',
+      imageSrc: process.env.PUBLIC_URL + '/images/android.PMG',
       alt: 'android',
       description: "Android Malware Detection With NLP is an innovative project that harnesses the power of Natural Language Processing (NLP) to identify malicious Android applications. The project's core objective is to shed light on a critical vulnerability in the classifier's accuracy, revealing its susceptibility to manipulation. Through practical examples and rigorous testing, the project showcases an attack strategy that involves adding empty XML tags and benign app features to malicious apps, effectively reducing the classifier's accuracy. Notably, the project employs tools like Apktool for analyzing and modifying Android applications and DroidBot to rigorously test and verify that the attack doesn't compromise the functionality of targeted applications. ",
       repoLink: 'https://github.com/oriazadok/androidMalwareDetectionWithNLP/tree/master',
