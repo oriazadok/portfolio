@@ -38,9 +38,9 @@ function App() {
         <h1>Hello there, I'm Oria</h1>
         <h2>Software Developer</h2>
          <div className="me">
-          <p>Computer Science Student, third year Highly motivated.</p>
-          <p>passionate about software development, curious, self learning skills.</p>
-          <p>Love to learn new things and improve my set of skills.</p>
+          <p>B.Sc. in Computer Science.</p>
+          <p>Passionate about software development, curious, self learning skills.</p>
+          <p>Highly motivated, love to learn new things and improve my set of skills.</p>
           <p>I'm a passionate developer who loves to create and innovate.</p>
           <p>I enjoy building applications that solve real-world problems and make a positive impact.</p>
         </div>

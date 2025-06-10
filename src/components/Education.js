@@ -8,9 +8,9 @@ const Education = () => {
         <div className="education-details">
           <div className="education-item">
             <h3>B.Sc. COMPUTER SCIENCE AND MATHEMATICS</h3>
-            <p>Ariel University, 2020 - expected 2024</p>
+            <p>Ariel University, 2020 - 2024</p>
             <ul className="vertical">
-              <li>Deep understanding of programming fundamentals including Design Patterns, OOP, Data Structures, Testing, Debuging and Computer Architecture.</li>
+              <li>Deep understanding of programming fundamentals including Design Patterns, OOP, Data Structures, Testing, Debugging and Computer Architecture.</li>
               <li>Skilled in theory of numerical and programming algorithms, analyzing complexity and efficiency in Java, Python, C, and C++.</li>
               <li>Proficient in Networking and Socket programming, operating systems such Linux/Windows, and databases such SQL, MongoDB.</li>
               {/* <li>Familiar with Agile and Scrum methodologies for mobile app development and design.</li> */}
